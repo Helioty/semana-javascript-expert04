@@ -1,7 +1,6 @@
 import { constants } from "../../_shared/constants.js"
 import RoomSocketBuilder from "./util/roomSocket.js"
 
-
 const socketBuilder = new RoomSocketBuilder({
     socketUrl: constants.socketUrl,
     namespace: constants.socketNamespaces.room
